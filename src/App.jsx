@@ -1,8 +1,10 @@
-import React from 'react'
+import Navbar from "./components/Navbar"
 
 const App = () => {
   return (
-    <div className='font-bold text-white text-4xl'>App</div>
+    <main className="text-sm text-neutral-300 antialiased">
+      <Navbar />
+    </main>
   )
 }
 
