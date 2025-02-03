@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar"
 import HeroSection from "./components/HeroSection"
 import HowItWorks from "./components/HowItWorks"
 import KeyFeatures from "./components/KeyFeatures"
-import Navbar from "./components/Navbar"
 import PricingPlans from "./components/PricingPlans"
 import Testimonials from "./components/Testimonials"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <KeyFeatures />
       <PricingPlans />
       <Testimonials />
+      <Footer />
     </main>
   )
 }
